@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherGet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="inputs">
+        <input type="text" placeholder="Add meg a város nevét " id="varos">
+        <button class="searchButton" onclick="fetchData()">Keresés</button>
+    </div>
+    <div class="card-container">
+    <div class="card">
+        <h1 id="city">a</h1>
+        <figure>
+            <img src="" alt="" id="icon">
+            <figcaption id="weather"></figcaption>
+        </figure>
+        <p id="degree"></p>
+    </div>
+    </div>
+
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

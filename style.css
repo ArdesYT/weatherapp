@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+.container {
+    position: fixed;
+    left: 45%;
+}
+
+.card {
+    margin-top: 140px;
+    position: fixed;
+    width: 250px;
+    background-color: azure;
+    border: 1px blanchedalmond solid;
+    border-radius: 1rem;
+    height: 500px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.card-container {
+    display: none;
+}
+
+#varos {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 19px;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    border-radius: 5rem;
+    box-shadow: 2px 2px rgb(120, 216, 250);
+}
+
+.searchButton {
+    padding: 12px;
+    margin-left: 50px;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: larger;
+    background-color: darkgray;
+    font-weight: bold;
+    box-shadow: 2px 2px darkgray;
+}
